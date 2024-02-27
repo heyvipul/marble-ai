@@ -1,0 +1,82 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.outer-border{
+    width: 783px;
+    height: 282px;
+    margin-left: 20px;
+    /* margin: auto; */
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+.top-container{
+    /* border: 1px solid green; */
+    display: flex;
+    width: 773px;
+    height: 60px;
+    gap: 4px;
+}
+.top-container > div{
+    /* border: 1px solid grey; */
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    width: 183px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    gap: 25px;
+    cursor: pointer;
+}
+.top-container > div:hover,
+.top-container > div.active {
+    background: rgb(241, 241, 241);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top-container .first{
+    background: rgb(241, 241, 241);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.top-container > div > div{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    align-items: center;
+    color: rgb(48, 48, 48,1);
+}
+.top-container > div span{
+    font-size: 15px;
+    color: rgb(97,97,91,1);
+}
+.middle-container{
+    width: 786px;
+    height:150px;
+    margin-top: 10px;
+}
+.last-container{
+    /* width: 773px; */
+    height: 32px;
+    padding: 5px 0px 5px 0px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.last-container {
+    display: flex;
+    flex-direction:row-reverse;
+}
+.last-container > div{
+    width: 189px;
+    height: 22px;
+    border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+    gap: 10px;
+    font-size: 12px;
+    background: rgb(241, 241, 241);
+    cursor: pointer;
+}
+.last-container > div span{
+    margin-right: 10px;
+    font-weight: bold;
+}
