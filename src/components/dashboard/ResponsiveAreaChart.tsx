@@ -126,6 +126,7 @@ export const ResponsiveAreaChart = ({
             </div>
             {/* char */}
             
+            
             <div className="middle-container">
                 <img src={img} alt="char.png" />
             </div>
