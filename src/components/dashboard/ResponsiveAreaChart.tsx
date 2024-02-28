@@ -1,5 +1,6 @@
 import React from "react";
 import "../changes/css/linechart.css"
+import { DateRangePicker, Stack } from 'rsuite';
 import {
     ResponsiveContainer,
     AreaChart,
@@ -9,7 +10,8 @@ import {
     Tooltip,
     Area,
 } from "recharts";
-import img from "/public/Chart.png"
+import img from "/Chart.png"
+
 import { ChartTooltip } from "../../components/dashboard/ChartTooltip";
 import { IChartDatum } from "../../interfaces";
 
@@ -21,7 +23,6 @@ type TResponsiveAreaChartProps = {
         fill: string;
     };
 };
-
 
 export const ResponsiveAreaChart = ({
     kpi,
@@ -81,7 +82,11 @@ export const ResponsiveAreaChart = ({
         //         />
         //     </AreaChart>
         // </ResponsiveContainer>
+        
         <div className="outer-border">
+            <DateRangePicker />
+            <br />
+            <br />
             <div className="top-container">
                <div className="first">
                     <div>

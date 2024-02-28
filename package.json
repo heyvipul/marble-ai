@@ -27,6 +27,7 @@
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@heroicons/react": "^2.0.18",
     "@mui/material": "^5.15.11",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.17",
     "@refinedev/cli": "^2.16.26",
     "@refinedev/core": "^4.47.2",
     "@refinedev/inferencer": "^4.5.20",
@@ -38,7 +39,9 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.8.1",
-    "recharts": "^2.1.9"
+    "recharts": "^2.1.9",
+    "rsuite": "^5.54.0",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@types/node": "^18.16.2",

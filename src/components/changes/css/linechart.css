@@ -3,12 +3,13 @@
 
 .outer-border{
     width: 783px;
-    height: 282px;
+    /* height: 282px; */
     margin-left: 20px;
     /* margin: auto; */
     border-radius: 10px;
     padding: 10px;
     gap: 10px;
+
 }
 .top-container{
     /* border: 1px solid green; */
