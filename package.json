@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && refine build",
+    "build": "vite build",
     "dev": "vite",
     "preview": "refine start",
     "refine": "refine"
